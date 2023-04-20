@@ -44,7 +44,7 @@ for ind in student_list.index:
      final_msg = mail_content_start + msg + mail_content_end
      print(student_list['First Name'][ind])
      print(student_list['Email'][ind])
-     Emailer(final_msg, "Reminder – Avilés-Johnson Fellowship Program Award Documents (Submission Deadline April 15, 2023)", 
+     Emailer(final_msg, "Reminder – This is the subject", 
              student_list["Email"][ind],
              student_list["CC"][ind])
     
